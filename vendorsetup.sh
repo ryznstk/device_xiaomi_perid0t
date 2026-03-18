@@ -94,7 +94,7 @@ git reset --hard FETCH_HEAD
 croot
 
 cd frameworks/native
-git fetch https://github.com/Lunaris-AOSP/frameworks_native 16.2
+git fetch https://github.com/Lunaris-AOSP/frameworks_native test
 git reset --hard FETCH_HEAD
 croot
 
