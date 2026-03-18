@@ -68,6 +68,11 @@ git fetch https://github.com/ryznstk/build_soong test
 git reset --hard FETCH_HEAD
 croot
 
+cd external/arm-optimized-routines
+git fetch https://github.com/Lunaris-AOSP/external_arm-optimized-routines test
+git reset --hard FETCH_HEAD
+croot
+
 cd device/lineage/sepolicy
 git fetch https://github.com/Lunaris-AOSP/device_lineage_sepolicy 16.2
 git reset --hard FETCH_HEAD
@@ -80,6 +85,11 @@ croot
 
 cd packages/apps/Launcher3
 git fetch https://github.com/Lunaris-AOSP/packages_apps_Launcher3 test
+git reset --hard FETCH_HEAD
+croot
+
+cd packages/apps/FaceUnlock
+git fetch https://github.com/Lunaris-AOSP/packages_apps_FaceUnlock.git test
 git reset --hard FETCH_HEAD
 croot
 
@@ -109,7 +119,7 @@ git reset --hard FETCH_HEAD
 croot
 
 cd vendor/lineage
-git fetch https://github.com/Lunaris-AOSP/vendor_lineage test
+git fetch https://github.com/Lunaris-AOSP/vendor_lineage 16.2
 git reset --hard FETCH_HEAD
 croot
 
