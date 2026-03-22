@@ -2040,8 +2040,6 @@ product/framework/uimgbamanagerlibrary.jar
 product/framework/uimservicelibrary.jar
 system/etc/sysconfig/qti_whitelist.xml
 system_ext/app/AtFwd2/AtFwd2.apk
-<<<<<<< HEAD
-=======
 system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
 system_ext/etc/permissions/qcrilhook.xml
 system_ext/etc/permissions/qti_permissions.xml
@@ -2077,7 +2075,6 @@ system_ext/lib64/vendor.qti.imsrtpservice@3.1.so
 system_ext/priv-app/QtiTelephony/QtiTelephony.apk;REQUIRED=QtiTelephonyCompat
 system_ext/priv-app/ims/ims.apk;REQUIRED=QtiTelephonyCompat
 system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
->>>>>>> 9e94427 (peridot: Update from OS3.0.4.0.WNPMIXM)
 vendor/app/IWlanService/IWlanService.apk
 vendor/bin/ATFWD-daemon
 vendor/bin/adpl
